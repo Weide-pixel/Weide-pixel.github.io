@@ -1,5 +1,6 @@
 .home-title{
    font-size: 28pt;
+   background-color: yellow;
 }
 
 h1{
@@ -10,4 +11,8 @@ h1{
 div{
    font-size: 22pt;
    text-align:center;
+}
+
+body{
+   background-color: aqua;
 }
