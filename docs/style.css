@@ -1,10 +1,11 @@
 header{
    background-color: yellow;
-   background-size: cover;
+   display: block
 }
 
 .home-title{
    font-size: 28pt;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h1{
