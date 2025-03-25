@@ -1,6 +1,10 @@
+header{
+   background-color: yellow;
+   background-size: cover;
+}
+
 .home-title{
    font-size: 28pt;
-   background-color: yellow;
 }
 
 h1{
