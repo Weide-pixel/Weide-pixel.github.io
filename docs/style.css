@@ -18,6 +18,12 @@ div{
    text-align:center;
 }
 
+p{
+   font-size: 18pt;
+   text-align:center;
+   font-family: DFKai-SB;
+}
+
 body{
    background-color: aqua;
 }
