@@ -1,6 +1,5 @@
 header{
-   background-color: yellow;
-   display: block
+   text-align:center;
 }
 
 .home-title{
@@ -9,7 +8,7 @@ header{
 }
 
 h1{
-   color: red; 
+   color:chocolate; 
    text-align:center;
 }
 
@@ -24,5 +23,10 @@ a:hover{
 }
 
 body{
-   background-color: aqua;
+   background-color:aliceblue;
+}
+
+img{
+   vertical-align: text-bottom;
+   margin-right: 6pt;
 }
