@@ -40,30 +40,29 @@ img{
 .move{
    display: inline-block;
    text-align: center;
-   animation: move 3s linear infinite;
+   animation: 6s linear infinite;
+   animation-name: colorful, move;
 }
 
 @keyframes move{
    0%{
-      color: red;
       transform: rotate(0deg);
    }
-   25%  {color: orange;}
-   50%  {color: yellow;}
    100%{
-      color: blue;
       transform: rotate(360deg);
    }
  }
 
  .color{
    font-size: 36pt;
-   animation: colorful 3s linear infinite;
+   animation: colorful 6s linear infinite;
  }
 
  @keyframes colorful{
-   0%   {color: red;}
-   25%  {color: orange;}
-   50%  {color: yellow;}
-   100% {color: blue;}
+   0%   {color: plum;}
+   20%  {color: orange;}
+   40%  {color: orchid;}
+   60% {color: chocolate;}
+   80% {color: lightblue;}
+   100% {color: purple;}
  }
