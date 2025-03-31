@@ -66,3 +66,27 @@ img{
    80% {color: lightblue;}
    100% {color: purple;}
  }
+
+ .move_l2r{
+   color: crimson;
+   animation: move_l2r 20s linear infinite;
+ }
+
+ @keyframes move_l2r
+ {
+   0%{
+      transform: translate(-500px);
+  }
+  25%{
+      transform: translate(500px);
+  }
+  50%{
+      transform: translate(-500px);
+  }
+  75%{
+      transform: translate(500px);
+  }
+  100%{
+      transform: translate(-500px);
+  }
+ }
