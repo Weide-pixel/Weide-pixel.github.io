@@ -30,3 +30,34 @@ img{
    vertical-align: text-bottom;
    margin-right: 6pt;
 }
+
+.move{
+   display: inline-block;
+   text-align: center;
+   animation: move 3s linear infinite;
+}
+
+@keyframes move{
+   0%{
+      color: red;
+      transform: rotate(0deg);
+   }
+   25%  {color: orange;}
+   50%  {color: yellow;}
+   100%{
+      color: blue;
+      transform: rotate(360deg);
+   }
+ }
+
+ .color{
+   font-size: 36pt;
+   animation: colorful 3s linear infinite;
+ }
+
+ @keyframes colorful{
+   0%   {color: red;}
+   25%  {color: orange;}
+   50%  {color: yellow;}
+   100% {color: blue;}
+ }
