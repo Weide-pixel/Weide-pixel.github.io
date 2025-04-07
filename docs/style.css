@@ -1,5 +1,6 @@
-header{
+.header{
    text-align:center;
+   margin-left: 180px;
 }
 
 .home-title{
@@ -30,6 +31,10 @@ a:hover{
 
 body{
    background-color:aliceblue;
+}
+
+.body{
+   margin-left: 180px;
 }
 
 img{
