@@ -68,25 +68,23 @@ img{
  }
 
  .move_l2r{
+   display: inline-block;
    color: crimson;
-   animation: move_l2r 20s linear infinite;
+   animation: move_l2r 6s linear infinite;
  }
 
  @keyframes move_l2r
  {
-   0%{
-      transform: translate(-500px);
-  }
-  25%{
-      transform: translate(500px);
-  }
-  50%{
-      transform: translate(-500px);
-  }
-  75%{
-      transform: translate(500px);
-  }
-  100%{
-      transform: translate(-500px);
-  }
+   0%
+   {
+      transform: translate(-200%);
+   }
+   50%
+   {
+      transform: translate(200%);
+   }
+   100%
+   {
+      transform: translate(-200%);
+   }
  }
