@@ -52,6 +52,14 @@ img{
    font-family:'Courier New', Courier, monospace
 }
 
+.sidebar a:hover::before{
+   position: absolute;
+   top: 500px;
+   font-size: 16pt;
+   display: block;
+   content: '製作中(・ω・)ノ';
+}
+
 .move{
    display: inline-block;
    text-align: center;
