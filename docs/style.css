@@ -124,7 +124,7 @@ div.college_click{
  .move_l2r{
    display: inline-block;
    color: crimson;
-   animation: move_l2r 6s linear infinite;
+   animation: move_l2r 8s linear infinite;
  }
 
  @keyframes move_l2r
