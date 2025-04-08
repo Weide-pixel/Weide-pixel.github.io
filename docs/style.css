@@ -67,6 +67,30 @@ img{
    content: '製作中(・ω・)ノ';
 }
 
+button{
+   font-size: 18pt;
+   background-color: brown;
+   border: none;
+   padding: 7px 8px 7px 8px;
+}
+
+button:hover {
+   cursor: pointer;
+}
+
+.college_content{
+   display: none;
+}
+
+div.college_click{
+   top: 60px;
+   left: 180px;
+   width: 180px;
+   background-color:brown;
+   display: block;
+   position: absolute;
+}
+
 .move{
    display: inline-block;
    text-align: center;
