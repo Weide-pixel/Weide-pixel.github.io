@@ -31,6 +31,9 @@ a:hover{
 
 body{
    background-color:aliceblue;
+   background-image: url(image/home_bg.jpg);
+   background-position: center;
+   background-size: cover;
 }
 
 .body{
