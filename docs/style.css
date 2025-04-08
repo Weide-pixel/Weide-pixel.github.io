@@ -44,7 +44,7 @@ img{
 
 .sidebar{
    background-color:brown;
-   height: 100%;
+   height: 200px;
    width: 180px;
    position: fixed;
    padding-top: 20px;
@@ -59,9 +59,11 @@ img{
 
 .sidebar a:hover::before{
    position: absolute;
-   top: 500px;
-   font-size: 16pt;
+   width: 200px;
+   left: 200px;
+   font-size: 18pt;
    display: block;
+   background-color: blanchedalmond;
    content: '製作中(・ω・)ノ';
 }
 
