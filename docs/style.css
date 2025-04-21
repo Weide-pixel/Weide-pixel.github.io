@@ -46,7 +46,7 @@ img{
 }
 
 .sidebar{
-   background-color:brown;
+   background-color:cadetblue;
    height: 200px;
    width: 180px;
    position: fixed;
@@ -72,7 +72,7 @@ img{
 
 button{
    font-size: 18pt;
-   background-color: brown;
+   background-color: cadetblue;
    border: none;
    padding: 7px 8px 7px 8px;
 }
@@ -89,7 +89,7 @@ div.college_click{
    top: 60px;
    left: 180px;
    width: 180px;
-   background-color:brown;
+   background-color:cadetblue;
    display: block;
    position: absolute;
 }
