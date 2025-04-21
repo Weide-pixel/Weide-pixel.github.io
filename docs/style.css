@@ -51,6 +51,7 @@ img{
    width: 180px;
    position: fixed;
    padding-top: 20px;
+   border-radius: 20px;
 }
 
 .sidebar a{
@@ -68,6 +69,7 @@ img{
    display: block;
    background-color: blanchedalmond;
    content: '製作中(・ω・)ノ';
+   border-radius: 20px;
 }
 
 button{
@@ -92,6 +94,7 @@ button:hover {
    background-color:chocolate;
    display: block;
    position: absolute;
+   border-radius: 0px 20px 20px 0px;
 }
 
 .move{
