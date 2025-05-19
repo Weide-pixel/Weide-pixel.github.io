@@ -10,7 +10,7 @@ function readMore()
         p.className = "college_content";
         button.innerHTML = "大學時期 &gt;";
     } 
-    else    // 隱藏起文字
+    else        // 隱藏起文字
     {
         p.className = "college_click";
         button.innerHTML = "大學時期 &lt;";
