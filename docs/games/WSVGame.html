@@ -1,21 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <head>     
-            <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />     
-            <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-            <meta charset="utf-8" />
-            <title>狼羊菜過河</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
 
-    <body>
-        <a href="https://weide-pixel.github.io/" class="bkhome">回首頁</a>
-        <py-script>print('Hello, World!')</py-script><br>
-            This is the current date and time, as computed by Python: 
-        <py-script>
-        from datetime import datetime 
-        now = datetime.now() 
-        now.strftime("%m/%d/%Y, %H:%M:%S") 
-        </py-script>
-    </body>
+    <link rel="stylesheet"
+          href="https://pyscript.net/releases/2025.2.2/core.css">
+
+    <script type="module"
+            src="https://pyscript.net/releases/2025.2.2/core.js">
+    </script>
+</head>
+
+<body>
+
+    <h1>HTML + Python</h1>
+
+    <button py-click="hello()">執行 Python</button>
+
+    <p id="result"></p>
+
+    <py-script>
+def hello():
+    result = 10 + 20
+    document.querySelector("#result").innerText = f"Python 結果：{result}"
+    </py-script>
+
+</body>
 </html>
