@@ -1,6 +1,6 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
+    <head>
     <meta charset="UTF-8">
 
     <link rel="stylesheet"
@@ -9,21 +9,16 @@
     <script type="module"
             src="https://pyscript.net/releases/2025.2.2/core.js">
     </script>
+    <title>狼羊菜過河</title>
 </head>
 
-<body>
+    <body>
+        <a href="https://weide-pixel.github.io/" class="bkhome">回首頁</a><br>
+        <h1>PyScript Test</h1>
+        <script type="py">
+            from pyscript import display
 
-    <h1>HTML + Python</h1>
-
-    <button py-click="hello()">執行 Python</button>
-
-    <p id="result"></p>
-
-    <py-script>
-def hello():
-    result = 10 + 20
-    document.querySelector("#result").innerText = f"Python 結果：{result}"
-    </py-script>
-
-</body>
+            display("你好，歡迎來到 PyScript 測試頁面！")
+        </script>
+    </body>
 </html>
